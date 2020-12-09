@@ -15,4 +15,17 @@ Data for segmentation is retrieved ISTAT, the Italian, National Institute of Sta
 
 ***
 
-The repository includes different parts: 
+The repository includes different parts.  
+Airbnb data cleaning and price prediction:  
+* EDA and DataViz.ipynb
+* cleaning_listing.R
+* predictionfinale.R  
+
+The first file provides a general overview on the data, with plot and maps (*EDA*). Then, the *cleaning_listing* works both on calendar and listing files, in order to create the final set of information. The main problem addressed here are data cleaning (especially imputation of NAs and identification of outliers) and feature engineering. *predictionfinale* contains the final analysis: price prediction and variable importance detection.
+
+
+The second part includes a unique script for customer segmentation:  
+* segmentation.R  
+
+This .R script includes both EDA and data cleaning and analysis.
+***
