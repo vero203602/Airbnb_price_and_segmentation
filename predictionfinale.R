@@ -1060,18 +1060,15 @@ xgbfinal %>%
 # ----------------------------------------------------------#
 # Linear Regression         | /              | 72.71         #
 # LASSO                     | /              | 70.58         #
-# Regression Tree           | 79.55          | 79.01         #
-# Pruned Tree               | 69.56          | 70.62         #  
-# Tuned parameters Tree     | 66.44          | 68.07         #  
-# Bagging                   |           |          #
-# Random Forest             |           |          #
-# Random Forest (ranger)    | 33.53          | 32.98         #
-# Random Forest (ranger)    | 39.21          | 38.73         #
-# Gradient Boosting         |           |          #
-# Gradient Boosting (tuned) |        |           |          #
-# Grad. Boost. (xgboost)    |           |          #
-# Grad.                     |                |               #
-# Boost. (xgboost) tuned    |           |          #
+# Regression Tree           | 78.70          | 78.04         #
+# Pruned Tree               | 69.41          | 70.28         #  
+# Tuned parameters Tree     | 70.01          | 70.49         #  
+# Bagging                   | -              | -             #    only used for sample
+# Random Forest             | -              | -             #    only used for sample
+# Random Forest (ranger)    | 39.02          | 38.96         #
+# Gradient Boosting         | -              | -             #    only used for sample
+# Gradient Boosting (tuned) | -              | -             #    only used for sample
+# Grad. Boost. (xgboost)    | 19.08          | 35.60         #
 
 
 ##############################################################################
