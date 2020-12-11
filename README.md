@@ -5,6 +5,11 @@ The repository includes the complete code - trials and final - for my Final proj
 ### Title: Sharing your house, at what  cost?
 #### Subtitle: Analysis of a pricing model and customer segmentation for Airbnb
 
+##### Research question:  
+Provide a good base-price for listing in Airbnb and observe the most significant attributes. Compare the results with findings from previous studies. 
+Check habits and tendencies of Italian tourists. Firstly, clustering is performed according to purchase history (RFM, k-means). Eventually, socio-demographic attributes are also explored, to understand if these variables are significant. 
+
+***
 
 Data from Airbnb is directly dowloaded from the website and can be used under a Creative Commons CC0 1.0 Universal (CC0 1.0) “Public Domain Dedication” license. In particular, the **calendar** data sets and the **listing** ones (2019) are all downloaded from:
 <http://insideairbnb.com/get-the-data.html>
