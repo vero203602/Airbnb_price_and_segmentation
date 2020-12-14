@@ -1059,7 +1059,8 @@ ggplot(iorgall %>%
        x = 'hc groups')
 
 
-
+##########################################################################
+##########################################################################
 # eda on socio-demo per groups
 ggplot(iorgall %>%
          dplyr::count(eta10, sesso, hcgroup) %>%
@@ -1126,42 +1127,6 @@ ggplot(iorgall %>%
        caption = 'Source: ISTAT',
        x = 'working status',
        y = 'count')
-
-
-
-
-
-
-
-
-
-# cut3
-w_cut3 <- cutree(hc_clust, k = 3)
-df_clus$hc <- w_cut3
-df_clus_fin <- df_clus %>%
-  dplyr::group_by(progind) %>%
-  dplyr::mutate(hc = Mode(hc))
-
-#df_clus <- df_clus[!duplicated(df_clus$progind),]
-
-iorgall$hc <- df_clus_fin$hc
-iorgall$hcgroup <- mapvalues(iorgall$hc,
-                             from=c(1, 2, 3),
-                             to=c('Group 1','Group 2','Group 3'))
-int_numeric$hc <- df_clus_fin$hc
-int_numeric$hcgroup <- mapvalues(int_numeric$hc,
-                                 from=c(1, 2, 3),
-                                 to=c('Group 1','Group 2','Group 3'))
-
-int_numeric[is.na(int_numeric)] <- 0
-int_numeric %>%
-  dplyr::group_by(hc)%>%
-  dplyr::select(sesso, eta10, istr4, condogg, TIPOVGG, DEST_IE, DURATA, recency, 
-                transaction_count, amount, IORGALL, piattall2) %>%
-  dplyr::summarise_all(mean) 
-int_numeric %>%
-  dplyr::group_by(hc)%>%
-  tally()
 
 
 # represents different segments inside k-means groups
