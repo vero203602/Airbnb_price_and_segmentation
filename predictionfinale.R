@@ -19,7 +19,7 @@ library(caret)     # dummyVars for one hot encoding
 library(xgboost)   # faster implementation of GB
 library(glmnet)    # lasso shrinkage
 
-setwd('/Users/veronicacipriani/Desktop/tesi/dati/listing_2019/listing_complete/price_pred')
+setwd('')
 jan <- read.csv('january_listing.csv',  sep=',', stringsAsFactors = TRUE)[, -c(1)]
 
 ##############################################################################

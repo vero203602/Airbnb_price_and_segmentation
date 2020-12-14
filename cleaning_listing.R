@@ -7,7 +7,7 @@ library(lubridate)
 library(dplyr)
 
 # set working directory
-setwd('/Users/veronicacipriani/Desktop/tesi/dati/milano_2019')
+setwd('')
 
 jan2019 <- read.csv('calendar.csv')
 feb2019 <- read.csv('calendar-2.csv')
@@ -145,7 +145,7 @@ library(dplyr)
 # that are proven to be interesting in literature and recoded - when needed - 
 # the existing ones.
 
-setwd('/Users/veronicacipriani/Desktop/tesi/dati/listing_2019/listing_complete/')
+setwd('')
 list_room   <- read.csv('list_room.csv',   sep=',')[, -c(1)] # da jupyter
 listjan2019 <- read.csv('listings.csv',    sep=',') 
 listfeb2019 <- read.csv('listings-2.csv',  sep=',') 
