@@ -7,7 +7,7 @@ library(lubridate)
 library(dplyr)
 
 # set working directory
-setwd('/Users/veronicacipriani/Desktop/tesi/dati/milano_2019')
+setwd('')
 
 jan2019 <- read.csv('calendar.csv')
 feb2019 <- read.csv('calendar-2.csv')
