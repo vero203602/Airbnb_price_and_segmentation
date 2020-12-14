@@ -145,7 +145,7 @@ library(dplyr)
 # that are proven to be interesting in literature and recoded - when needed - 
 # the existing ones.
 
-setwd('/Users/veronicacipriani/Desktop/tesi/dati/listing_2019/listing_complete/')
+setwd('')
 list_room   <- read.csv('list_room.csv',   sep=',')[, -c(1)] # da jupyter
 listjan2019 <- read.csv('listings.csv',    sep=',') 
 listfeb2019 <- read.csv('listings-2.csv',  sep=',') 
