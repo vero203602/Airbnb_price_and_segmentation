@@ -379,7 +379,7 @@ rfm_fm_plot(rfm_df_results)
 
 sort(unique(rfm_df_results$rfm$rfm_score))
 
-# Divide tourists into 7 categories
+# Divide tourists into 6 categories
 most_prof   <- c(123, 133, 223, 233, 323, 333) # luxury globetrotters
 onetime_lux <- c(113, 213, 313)
 avg_globe   <- c(132, 222, 232, 323, 332) #average traveler 2-4 times per year
@@ -842,7 +842,7 @@ ggplot(finale_kmeans2 %>%
 ######################### CATEGORICAL DATA ###############################
 ##########################################################################
 
-# HIERARCHICAL METHOD # --> k means is more efficient
+# HIERARCHICAL METHOD # 
 # First, subset with the variable i want to consider
 # I want a dataset with a single obs for individual
 # First, when possible, I keep variable as overall mean
