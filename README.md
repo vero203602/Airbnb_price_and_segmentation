@@ -1,6 +1,6 @@
 # Airbnb_price_and_segmentation
 
-The repository includes the complete code - trials and final - for my Final project.
+The repository includes the complete code - trials and final - of my Master Dissertation.
 
 ### Title: Sharing your house, at what  cost?
 #### Subtitle: Analysis of a pricing model and customer segmentation for Airbnb
